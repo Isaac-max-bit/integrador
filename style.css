@@ -1,0 +1,55 @@
+div{
+    text-align: center;
+    width: 300px;
+}
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) 
+
+
+}
+li{
+    text-align: center;
+}
+.first-day{
+    grid-column-start: 2;
+}
+.day-name{
+    background-color: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+.second-day{
+    grid-column-start: 5;
+}
+.third-day{
+    grid-column-start: 6;
+}
+.fourth-day{
+    grid-column-start: 2;
+}
+.fifth-day{
+    grid-column-start: 4;
+}
+.sixth-day{
+    grid-column-start: 7;
+}
+.seventh-day{
+    grid-column-start: 2;
+}
+.eighth-day{
+    grid-column-start: 5;
+}
+.ninth-day{
+    grid-column-start: 1;
+}
+.tenth-day{
+    grid-column-start: 3;
+}
+.eleventh-day{
+    grid-column-start: 6;
+}
+.twelfth-day{
+    grid-column-start: 1;
+}
